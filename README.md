@@ -9,7 +9,7 @@ O Reprograme-se é um projeto do Instituto Federal do Espirito Santo e tem o obj
 
 O reprograme-se terá a duração de 8 meses, sendo 4 meses para o curso Programação básica de aplicativos Web - Front-end e 4 meses para o curso Programação com JavaScript e o Framework Node.js - Back-end.
 
-# Módulos
+
 ## Programação básica de aplicativos Web - Front-end
 ### MÓDULO I - Conhecimentos básicos de HTML e CSS
 
