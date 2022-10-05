@@ -1,6 +1,6 @@
 ![Reprograme-se](https://github.com/viniciusperdigao/ifes/blob/main/reprograme.png?raw=true)
 
-Repositório destinado ao curso Reprograme-se do Instituto Federal do Espirito Santo - IFES
+Repositório destinado aos arquivos dos projetos semanais desenvolvidos no curso Reprograme-se do Instituto Federal do Espirito Santo - IFES
 
 
 ## O Programa
