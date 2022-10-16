@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Prática - Semana 02</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header>
+        <table>
+            <tr>
+                <td rowspan="2" width="20%" align="center">
+                    <img src="img/perfil.jpg" alt="Foto de Perfil">
+                </td>
+                <td id="name">
+                    Vinicius Perdigão
+                </td>
+            </tr>
+            <tr>
+                <td id="occupation">&lt;Designer e Desenvolvedor Web&gt;</td>
+            </tr>
+        </table>
+    </header>
+    <table style="border-spacing: 30px;">
+        <tr align="center" class="menu">
+            <td colspan="2">
+                <ul>
+                    <li><a href="index.html">Principal</a></li>
+                    <li><a href="quemsou.html">Quem Sou</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="contato.html" id="active">Contato</a></li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <table style="border-spacing: 30px;">
+        <tr>
+            <td>
+                <h1>Entre em contato!</h1>
+                <p>Preencha todos os campos do formulário a seguir e em até 48h lhe responderei.<br>
+                    Será um prazer lhe atender!
+                </p>
+            </td>
+        </tr>
+    </table>
+    <table style="border-spacing: 30px;">
+        <tr>
+            <td>
+                <form>
+                    <p>
+                        <label for="assunto">Assunto</label><br>
+                        <select name="assunto" id="assunto" required>
+                            <option value="" disabled selected>Selecione o assunto...</option>
+                            <option value="Consult">Consultoria</option>
+                            <option value="Blog">Blog</option>
+                            <option value="Outro">Outro</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="nome">Nome</label><br>
+                        <input type="text" id="nome" placeholder="Beltrano de Tal">
+                    </p>
+                    <p>
+                        <label for="email">Email</label><br>
+                        <input type="email" name="email" id="email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+                            placeholder="beltrano@email.com">
+                    </p>
+                    <p>
+                        <label for="telefone">Telefone</label><br>
+                        <input type="tel" name="telefone" id="telefone" pattern="\(\d{2}\)\d{4}-\d{4}"
+                            placeholder="(27) 99999-9999">
+                    </p>
+                    <p>
+                        <label for="mensagem">Mensagem</label><br>
+                        <textarea name="message" id="mensagem" cols="30" rows="10"></textarea>
+                    </p>
+                    <p>
+                        <input type="submit" value="Enviar" id="submit-button">
+                    </p>
+                </form>
+            </td>
+        </tr>
+        <tr class="contact">
+            <td>
+                <ul>
+                    <li>
+                        <h4>Outras formas de contato:</h4>
+                    </li>
+                    <li>Residente em Domingos Martins</li>
+                    <li><a href="mailto:eng.viniciusperdigao@gmail.com">eng.viniciusperdigao@gmail.com</a></li>
+                    <li>(27) 99999-9999</li>
+                    <li><a href="https://www.linkedin.com/in/viniciuscmperdigao/">Linkedin</a></li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <footer align="center">
+        <p>Copyright &copy IFES 2022 <br><br>
+            <img src="img/logo.png" alt="" width="100px" height="100%">
+    </footer>
+</body>
+
+</html>
