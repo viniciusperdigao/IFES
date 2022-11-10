@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0px;
+    padding: 0px;
+    background-color: #EEEEEE;
+}
+
+hr {
+    background-color: #DDDDDD;
+    height: 6px;
+    border: none;
+    width: 62vw;
+
+}
+
+h4 {
+    margin: 10px 0px;
+    padding: 0px 0px;
+}
+
+div.container {
+    width: 80vw;
+
+    height: 100vw;
+    margin: 0px auto;
+
+
+}
+
+
+
+.navegacao {
+    position: relative;
+    height: 250px;
+    margin-bottom: 100px;
+    margin-top: 0px;
+    width: 100%;
+
+}
+
+.navegacao ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 40px;
+
+
+}
+
+.navegacao ul li {
+
+    position: relative;
+    list-style: none;
+    width: 100%;
+
+
+}
+
+.navegacao ul li a {
+    position: relative;
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.navegacao ul li a .icone {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    text-align: center;
+    line-height: 50px;
+
+}
+
+
+.navegacao ul li a .icone img {
+    position: relative;
+}
+
+.navegacao ul li a .titulo {
+    position: relative;
+    display: block;
+    padding-left: 10px;
+    height: 60px;
+    line-height: 60px;
+    white-space: nowrap;
+
+
+}
+
+
+div.rodape {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+    bottom: 0;
+    width: 62vw;
+
+}
+
+div.rodape p {
+    margin: 10px;
+
+}
+
+.hero {
+
+    float: left;
+    background-color: white;
+    margin-bottom: 15px;
+    padding: 0px;
+    width: 62vw;
+
+
+}
+
+.hero-dir {
+
+    float: left;
+    width: 70%;
+    height: 450px;
+    text-align: center;
+}
+
+.hero-esq p {
+    padding: 20px;
+    color: white;
+    background-color: #333;
+    margin: 0px 50px;
+}
+
+.hero-esq p:hover {
+    padding: 20px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    margin: 0px 50px;
+}
+
+.hero-esq {
+
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+
+.direita {
+    margin-left: 18vw;
+    padding: 15px;
+}
+
+div.direta {
+    width: 62vw;
+    height: 100vw;
+    margin-left: 18vw;
+    float: left;
+    margin-left: 18vw;
+
+}
+
+div.esquerda {
+    background-color: white;
+    width: 18vw;
+    height: 100vh;
+    position: fixed;
+    float: left;
+    text-align: center;
+}
+
+div.esquerda img {
+    margin: 20px;
+    width: 85%;
+    height: 50%;
+    border-radius: 10%;
+}
+
+
+
+
+
+
+
+p>a>img {
+    padding: 0px;
+    width: 20%;
+    max-width: 20px;
+    max-height: 20px;
+    float: left;
+}
+
+
+.sobremim {
+    text-align: justify;
+}
+
+.barra {
+    background-color: #DDDDDD;
+    margin: 0px;
+    margin-bottom: 30px;
+    padding: 0px;
+    height: 40px;
+    width: 62vw;
+
+}
+
+.front-progress,
+.back-progress,
+.ui-progress,
+.portugues,
+.ingles,
+.espanhol,
+.alemao {
+    background-color: #333333;
+
+    padding: 0px;
+    height: 40px;
+    width: 80%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.back-progress {
+    width: 40%;
+}
+
+.ui-progress,
+.ingles {
+    width: 60%;
+}
+
+.portugues {
+    width: 100%;
+}
+
+.espanhol {
+    width: 70%;
+}
+
+.alemao {
+    width: 30%;
+}
+
+.projetos {
+
+    width: 62vw;
+    float: left;
+
+}
+
+.cont-card {
+    padding: 2px 16px;
+}
+
+.card {
+    background-color: white;
+    border: solid 10px #EEEEEE;
+    float: left;
+    width: 33.33%;
+
+}
+
+.precos table,
+th,
+td {
+    width: 62vw;
+    border: 2px solid #DDDDDD;
+    border-collapse: collapse;
+}
+
+.precos th {
+    height: 80px;
+}
+
+.precos th p {
+    background-color: #333;
+    padding: 20px;
+    margin: 0px 80px;
+    color: white;
+}
+
+.precos th p:hover {
+    background-color: #EEEEEE;
+    padding: 20px;
+    margin: 0px 80px;
+    color: black;
+    border: solid 1px black;
+}
+
+.contato {
+
+    width: 62vw;
+}
+
+.container-formulario {
+    background-color: #888888;
+    position: relative;
+    width: 62vw;
+    padding: 20px;
+    color: white;
+}
+
+
+
+.card-formulario {
+    float: left;
+    width: 33.33%;
+    border: 1px solid #EEEEEE;
+    height: 220px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.card-formulario form te {
+    width: 100%;
+
+}
+
+.card-formulario img {
+
+    margin: 20px;
+    height: 100px;
+}
+
+.container-formulario form {
+
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    height: ;
+
+}
+
+.container-formulario form div {
+    margin: 1em 0;
+    display: block;
+}
+
+
+.container-formulario form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.container-formulario form input,
+
+select {
+    height: 50px;
+    width: 100%;
+}
+
+.container-formulario form textarea {
+    height: 150px;
+    width: 100%;
+}
+
+.container-formulario .botao-subimit {
+    height: 50px;
+    width: 20%;
+    background-color: #333;
+    color: white;
+
+}
